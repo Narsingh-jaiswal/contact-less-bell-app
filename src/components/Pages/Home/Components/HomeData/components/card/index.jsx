@@ -41,7 +41,7 @@ const MyHomeCard = ({ house }) => {
           <Box display={"flex"} flexDirection={"column"} alignItems={"center"}>
             <QRCode
               className={style.qr}
-              value={`${document.location.origin}/doorBell/?houseId=${house.houseId}`}
+              value={`${document.location.origin}/doorbell/?houseId=${house.houseId}`}
               id={house.houseId}
             />
             <Button
